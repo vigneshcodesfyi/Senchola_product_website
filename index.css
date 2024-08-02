@@ -17,6 +17,7 @@ nav  li{
     margin-right: 20px;
     padding: 20px;
     background-color: rgb(235, 232, 229);
+    box-shadow: 10px 10px 2px black;
     border-radius: 15px;
 }
 nav  li:hover{
@@ -286,6 +287,11 @@ color: whitesmoke;
     font-size: 15x;
 }
 @media (min-width: 0px) and (max-width: 426px) {
+
+   .container{
+      
+        background-size: contain;
+    } 
     .ephesis-regular{
         margin: auto;
         font-size: 70px;
@@ -350,6 +356,11 @@ color: whitesmoke;
 
 }
 @media (min-width: 769px) and (max-width: 1024px) {
+
+    .container{
+       
+        background-size: contain;
+    } 
     .ephesis-regular{
         font-size: 100px;
    }
@@ -375,6 +386,11 @@ color: whitesmoke;
    
 }
 @media (min-width: 427px) and (max-width: 768px) {
+
+    .container{
+      
+        background-size: contain;
+    } 
     nav{
         display: flex;
         justify-content: center;
