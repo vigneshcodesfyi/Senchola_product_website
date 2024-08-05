@@ -197,6 +197,21 @@ marquee>img{
     border: 2px solid black;
     border-radius: 10px;
 }
+
+
+#feedbackname:focus,#feedbackemail:focus,textarea:focus {
+    box-shadow: 5px 5px 2px rgb(195, 89, 8);
+
+    outline: 0px;
+    border: 2px solid rgb(243, 137, 0);
+
+}
+
+#submit:hover{
+
+    background-color: rgb(195, 89, 8);
+    color:white;
+}
 label{
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
@@ -204,6 +219,7 @@ label{
 #submit{
     width: max-content !important;
     padding: 10px;
+    border-radius: 10px;
 }
 .icons > p{
     /* margin-left: 10%; */
@@ -320,7 +336,8 @@ color: whitesmoke;
    .messageus{
         display: flex;
         /* flex-direction: column; */
-        justify-content: space-evenly;
+        
+        background-color: #ab0b0b;
    }
     label{
         font-size: 30px;
@@ -331,7 +348,6 @@ color: whitesmoke;
         width: max-content;
    } 
    address{
-
         font-size: 10x;
     }
    
@@ -353,7 +369,10 @@ color: whitesmoke;
     padding: 0px;
    
 }
-
+.feedback{
+    border :1px solid black;
+    box-shadow: none;
+}
 }
 @media (min-width: 769px) and (max-width: 1024px) {
 
